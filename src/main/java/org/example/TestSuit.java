@@ -42,7 +42,7 @@ public class TestSuit {       //Start from here to write the code
         //Enter Confirmed Password
         driver.findElement(By.id("ConfirmPassword")).sendKeys("asd@123");
 
-        //Click on Register button
+        //it should Click on Register button
         driver.findElement(By.id("register-button")).click();
     }
 }
