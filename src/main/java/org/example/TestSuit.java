@@ -159,7 +159,7 @@ public class TestSuit {
             Assert.assertEquals(title,expectedTitle,"Page Title is not Matching");
 
             //Product Verification
-           String actual = gettext(By.xpath("//a[.='Build your own computer' and @class='product-name']")) ;
+           String actual = gettext(By.xpath("//a[@href=\"/build-your-own-computer\" and @class=\"product-name\"]")) ;
            String expected = "Build your own computer";
            Assert.assertEquals(actual,expected,"Product name is NOT matching");
         }
